@@ -1,0 +1,110 @@
+
+body{
+    margin: 0;
+}
+.connexion{
+    float: right;
+    margin-top: 10px;
+    margin-right:10px;
+}
+header img{
+    margin-top: 5px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.connexion input{
+    height: 30px;
+    border-radius: 7px;
+}
+.connexion .seconnecter{
+    background-color: blue;
+    color: white;
+}
+.connexion .sinscrire{
+    background-color: green;
+    color: white;
+}
+.connexion .seconnecter:hover{
+    transform: translateY(-5px);
+    transition: .5s;
+    cursor: pointer;
+}
+.connexion .sinscrire:hover{
+    transform: translateY(-5px);
+    transition: .5s;
+    cursor: pointer;
+}
+.premiere_page {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.premiere_page img{
+    margin-top: 10px;
+}
+.deuxieme_page{
+    height: 50vh;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.titre{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.about_esmt{
+    
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.sid{
+    text-align: center;
+}
+.sid input{
+    margin-top: 60px;
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+}
+body,html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.sid input:hover{
+    transform: translateY(-5px);
+    transition: .5s;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.description{
+    text-align: center;
+    width: 100%;
+}
+.space{
+    color: white;
+}
+.esmt_fond{
+    background-color: blue;
+    color: white;
+    
+}

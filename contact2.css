@@ -1,0 +1,114 @@
+.logo_contact{
+    border-radius: 10px;
+    width: 500px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    text-align: center;
+    box-shadow: black 1px 1px 7px 1px;
+    margin-top: 20px;
+}
+.logo_img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+.se_connecter{
+    color: green;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inputs{
+    margin: 20px;
+}
+
+.bouton{
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: green;
+    border-radius: 7px;
+}
+.header_input{
+    float: right;
+    
+}
+.header_seconnecter{
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    height: 30px;
+}
+.header_sinscrire{
+    color: white;
+    height: 30px;
+    background-color: green;
+    border-radius: 10px;
+}
+.inputs input{
+    width: 200px;
+    border-radius: 7px;
+    height: 30px;
+    margin: 10px;
+}
+body,html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header_input{
+    margin: 10px;
+}
+footer{
+    margin-top: auto ;
+    height: 30px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.SEX_inputs input{
+    color: green;
+    background-color: green;
+    width: 10px;
+}
+.SEX_inputs{
+    display: flex;
+    align-items: center;
+    
+}
+.jaccepte_inputs input{
+    width: 15px;
+}
+.jaccepte_inputs{
+    display: flex;
+    align-items: center;
+}
+.reseaux{
+    display: flex;
+    flex-direction: row;
+}
+.reseaux img{
+    margin-left: 10px;
+}
+.header_input a :hover{
+    transform: translateY(-5px);
+    transition: .5s;
+}
+.enregistrer a :hover{
+    transform: translateY(-5px);
+    transition: .5s;
+}
